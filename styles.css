@@ -1,0 +1,67 @@
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Setting the background GIF */
+body {
+    background: url('background.gif') no-repeat center center fixed;
+    background-size: cover;
+    font-family: "Cardo", serif;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Centering the content */
+.content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Cardo", serif;
+}
+
+/* Password input and button styles */
+#passwordPrompt input {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1em;
+    font-family: "Cardo", serif;
+}
+
+#passwordPrompt button {
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: white; /* White background */
+    color: red; /* Red font color */
+    border: 1px solid red; /* Red border */
+    border-radius: 5px;
+    font-family: "Cardo", serif;
+}
+
+#passwordPrompt button:hover {
+    background-color: red;
+    color: white;
+    font-family: "Cardo", serif;
+}
+
+/* Download link styles */
+#downloadSection a {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: "Cardo", serif;
+}
+
+#downloadSection a:hover {
+    background-color: #218838;
+}

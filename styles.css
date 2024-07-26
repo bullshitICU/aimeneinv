@@ -4,7 +4,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+.icon-container {
+    text-align: center;
+}
 
+.icon-container a {
+    margin: 0 10px;
+}
+
+.icon-container img {
+    width: 50px; /* Adjust the size of the icons */
+    height: 50px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.icon-container img:hover {
+    transform: scale(1.2); /* Slightly enlarge icons on hover */
+}
 /* Setting the background GIF */
 body {
     background: url('background.gif') no-repeat center center fixed;
